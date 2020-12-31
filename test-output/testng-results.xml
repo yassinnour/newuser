@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37087" started-at="2020-12-31T03:51:22 CST" finished-at="2020-12-31T03:51:59 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37087" started-at="2020-12-31T03:51:22 CST" finished-at="2020-12-31T03:51:59 CST">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:test.LoginTest@2a17b7b6]" name="launchbrowser" is-config="true" duration-ms="4460" started-at="2020-12-31T03:51:22 CST" finished-at="2020-12-31T03:51:27 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="validUserShouldBeAbleToLogIn()[pri:1, instance:test.LoginTest@2a17b7b6]" name="validUserShouldBeAbleToLogIn" duration-ms="16529" started-at="2020-12-31T03:51:27 CST" finished-at="2020-12-31T03:51:43 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToLogIn -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.LoginTest@2a17b7b6]" name="close" is-config="true" duration-ms="893" started-at="2020-12-31T03:51:43 CST" finished-at="2020-12-31T03:51:44 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:test.LoginTest@2a17b7b6]" name="launchbrowser" is-config="true" duration-ms="4466" started-at="2020-12-31T03:51:44 CST" finished-at="2020-12-31T03:51:49 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="invalidUserShouldNotLogIn()[pri:2, instance:test.LoginTest@2a17b7b6]" name="invalidUserShouldNotLogIn" duration-ms="9957" started-at="2020-12-31T03:51:49 CST" finished-at="2020-12-31T03:51:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserShouldNotLogIn -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.LoginTest@2a17b7b6]" name="close" is-config="true" duration-ms="723" started-at="2020-12-31T03:51:59 CST" finished-at="2020-12-31T03:51:59 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
